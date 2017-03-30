@@ -1,0 +1,68 @@
+$dosis : 'Dosis', sans-serif;
+
+
+body,html{
+	margin:0;padding:0;
+	height:100vh;
+}
+.builder{
+	background:#222c3a;
+	width:370px;
+	height:100%;
+	font-family:$dosis;
+	overflow-y:auto;
+	float:left;
+	.sidebar{
+		position:relative; float:left; height:100%;
+		ul {
+			margin:0;padding:0; float:left; width:70px; text-align:center;
+			
+			>li:first-of-type { 
+				background:#2d3b4e;
+				height:100px;
+			}
+			li
+			{
+				list-style: none; 
+				background:#1d2531;
+				color: #eaeaea;
+				height:70px;
+				position:relative;
+				i{position:absolute;top:40%;transform:translateX(-50%); }
+			}
+		}
+	}
+
+}
+
+	/*
+	.heading{
+		.return{
+			color:#eaeaea;
+			background:#2b3746;
+			float:left;
+			height:50px;width:80px;
+			position:relative;
+			transition:.4s ease-in-out;
+			i{position:absolute;top:35%;left:50%;transform:translateX(-50%);}
+			&:hover{
+				background:#1e262f; cursor:pointer;
+			}
+		}
+		.title{
+			color:#eaeaea;
+			padding-left:10px;
+			font-size:20px;
+			line-height:50px;
+		}
+	}
+	
+
+	*/
+
+
+	.preview{
+		background:gray;
+		padding-left:370px;
+
+	}
